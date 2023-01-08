@@ -5,30 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
-    <script>
-        function info(){
-            location.href = "/info.html"
-        }
-        function game(){
-            location.href = "/game.html"
-        }
-        function creators(){
-            location.href = "/creators.html"
-        }
-        function patch(){
-            location.href = "/patch.html"
-        }
-    </script>
     <title>Blob Clicker</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="img/blob/yellow blob.gif"/>
 </head>
 <body>
     <button class="menucreators"><a href="creators.html"><img src="img/about the creators.png" height="90"></a></button>
-    <button class="menuinfo" onclick="info()"><img src="img/info.png" height="80"></button>
-    <button class="menupatch" onclick="patch()"><img src="img/patch notes2.png" height="90"></button>
+    <button class="menuinfo"><a href="creators.html"></a><img src="img/info.png" height="80"></button>
+    <button class="menupatch"><a href="creators.html"></a><img src="img/patch notes2.png" height="90"></button>
     <br><br><br><br>
-    <img class="homescreen" onclick="game()" src="img/homescreen.png">
+    <a href="creators.html"><img class="homescreen"src="img/homescreen.png"></a>
     <h1 class="versions" id="version">V 1.0.0 is out</h1>
 </body>
 </html>
